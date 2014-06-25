@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<widget id="com.example.primpager" version="1.0.0" xmlns:gap="http://phonegap.com/ns/1.0" xmlns="http://www.w3.org/ns/widgets">
+<widget id="com.primdial.pager" version="1.0.0" xmlns:gap="http://phonegap.com/ns/1.0" xmlns="http://www.w3.org/ns/widgets">
   <name>PrimDial Pager</name>
   <description>
-      Manage your Calls remotely. Pickup, transfer calls from anywhere. 
+      Manage your Calls remotely. Pickup, transfer calls from anywhere. Low rates.
   </description>
   <!--<gap:plugin name="org.apache.cordova.pushplugin" />-->
-  <author email="ccwalkerjm@gmail.com">ccwalkerjm@gmail.com</author>
-  <access origin="*" />
+  <author email="ccwalkerjm@gmail.com" href="https://github.com/ccwalkerjm/primpager2.git">
+      Courtney Walker
+  </author>
+  <gap:platform name="android" />
+  <access origin="*" />  
   <preference name="phonegap-version" value="3.3.0" />
   <gap:plugin name="org.apache.cordova.battery-status" />
   <gap:plugin name="org.apache.cordova.camera" />
