@@ -9,6 +9,7 @@
       Courtney Walker
   </author>
   <gap:platform name="android" />
+  <icon src="icon.png" />
   <access origin="*" />  
   <preference name="phonegap-version" value="3.3.0" />
   <gap:plugin name="org.apache.cordova.battery-status" />
