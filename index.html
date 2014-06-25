@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="scripts/jquery-1.6.4.js" type="text/javascript"></script>
     <script src="scripts/jquery.mobile-1.2.0.min.js" type="text/javascript"></script>   
-     <script src="cordova.js" type="text/javascript"></script>    
+    <script type="text/javascript" charset="utf-8" src="phonegap-1.4.1.js"></script> 
 </head>
 <body>  
          
     <script src="PushNotification.js" type="text/javascript"></script>
     <script type="text/javascript">
+        document.addEventListener("deviceready", function(){
+            alert("123");
+        },true);
         var pushNotification;
         var sessionGuid;
         var DeviceData = {
@@ -432,7 +435,7 @@
             $('#lines').append('</tbody');
         };
 
-        document.addEventListener('deviceready', onDeviceReady, true);
+        //document.addEventListener('deviceready', onDeviceReady, true);
     </script>
 
     <div data-role="page" data-theme="b" id="mainPage">
